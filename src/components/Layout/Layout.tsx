@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Layout = () => {
+export const Layout = () => {
   
   console.log('components')
 
@@ -10,5 +10,3 @@ const Layout = () => {
     </div>
   )
 }
-
-export default Layout;

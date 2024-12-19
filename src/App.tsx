@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Layout  from './components/Layout/Layout'
+import { Layout }  from './components/Layout/Layout'
+import { ThemeProvider } from '@mui/material/styles';
+import theme  from './styles/theme'
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <ThemeProvider theme={theme}>
+      <Layout/>
+    </ThemeProvider>
   );
 }
 
