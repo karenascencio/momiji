@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Layout }  from './components/Layout/Layout'
 import { ThemeProvider } from '@mui/material/styles';
 import theme  from './styles/theme'

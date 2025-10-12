@@ -1,0 +1,1 @@
+export const getHyphenedString = (text: string) => text.toLowerCase().replace(" ", "-");
